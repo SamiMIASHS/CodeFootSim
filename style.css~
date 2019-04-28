@@ -1,0 +1,597 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+body{
+background-color: #f0f0f5;
+width: 100%;
+
+}
+
+.banniere
+{
+background-color: black;
+top: 0;
+left: 0;
+height: 8%;
+position: fixed;
+width: 100%;
+padding: 5px;
+}
+
+.titreBanniere{
+height: 53px;
+}
+
+/*Menu de navigation*/
+.menu {
+    background-color: white;
+	 top: 8%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 3px;
+    left:0;    
+    
+}
+.menu li {
+    display: inline-block ;
+}
+.menu a {
+    display: block ;
+    width: 110px ;
+    padding: 3px ;
+  	 background-color: white; ;
+    color: black ;
+    text-decoration: none ;
+    margin-left: 10px ;
+    margin-right: 10px;
+    text-align: center ;
+    
+}
+.menu a:hover {
+    background-color: white ;
+    color: red ;
+    
+}
+
+.rechercheJoueurs{
+margin-top: 10%;
+background-color: white;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding-left: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+
+}
+
+#nomColonnes a{
+text-decoration: none;
+color: black;}
+
+#nomJoueur a{
+text-decoration: none;
+color: black;}
+
+.listeJoueurs{
+margin-top: 1%;
+background-color: white;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding-left: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+
+}
+
+.carreNote{
+border: 1px solid black;
+}
+
+#nomJoueur{
+text-align: left;
+}
+
+td, th{
+text-align: center;
+padding-right: 2px;
+padding-left: 2px;
+}
+
+
+.tableauJoueurs th{
+color: black;
+background-color: #20B2AA;
+border: 1px solid black;
+
+}
+
+#btReini{
+
+width: 150px;
+background:#b3f0ff;
+border: 1px solid black;
+padding:6px 0 6px 0;
+}
+
+/*Page JOUEURS SOLO*/
+
+#listeJoueursSolo{
+background-color: white;
+width: 10%;
+border: 2px solid black;
+padding: 1%;
+text-align: center;
+margin-left: 15.5%;
+display: inline-block;
+vertical-align: top;
+margin-top: 1%;
+
+}
+
+#infosJoueurs{
+background-color: white;
+width: 20%;
+border: 2px solid black;
+padding: 1%;
+margin-left: -61%;
+display: inline-block;
+
+}
+
+#statsJoueurs{
+
+background-color: white;
+width: 15%;
+border: 2px solid black;
+padding: 1%;
+margin-left: 20%;
+height: 350px;
+margin-top: 1%;
+display: inline-block;
+}
+
+
+#statsJoueurs table{
+margin: 0 auto;
+text-align: right;
+}
+
+
+#statsJoueurs2{
+
+display: inline-block;
+margin-top: 1%;
+background-color: white;
+width: 15%;
+border: 2px solid black;
+padding: 1%;
+margin-left: 2%;
+height: 350px;}
+
+#statsJoueurs2 table{
+margin: 0 auto;
+text-align: right;
+}
+
+/*Page ACCUEIL*/
+#bodyAccueil {background-color: white;}
+#accueil {margin-top: 10%;
+margin-left: auto;
+margin-right: auto;}
+
+.Page{height:243px;
+		width: 502px;
+		background-position: center center;
+		text-align: center;
+		margin: 0;
+		opacity: 0.7;
+		}
+
+.Page:hover {background-color: red;}	
+
+/*Page CONTACT*/
+.pageContact{
+margin-top: 2%;
+background-color: white;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding-left: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+
+#npmContact{
+display: inline-block;
+margin-top: 1%;
+margin-right: 12%;
+}
+
+#messContact{
+display: inline-block;
+vertical-align: top;
+margin-top: 1%;
+}
+
+#send{
+margin-left: 57%;
+width: 200px;
+background:#b3f0ff;
+border: 1px solid black;
+padding:6px 0 6px 0;
+}
+ 
+.logoContact{
+margin-left: 85%;
+height: 55px;
+width: 65px;
+}
+
+/*Page Statistiques*/
+.spanStatsJoueurs{
+background-color: pink;
+padding: 2px;
+border: 2px solid red;
+padding-left: 10px;
+padding-right: 10px;
+margin-top: 2%;
+width: 25%;
+margin-left: 15%;
+}
+
+.indiv{
+
+display: inline-block;
+}
+
+
+.indiv table{
+width: 200px;
+margin-left: 50px;
+}
+
+.indiv h3{
+margin-left: 50px;
+border: 1px solid blue;
+margin-bottom: 2%;
+text-align: center;
+background-color: #daf7f8}
+
+.tablesStatsJoueurs{
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+margin-top: 2%;
+border: 2px solid black;
+width: 70%;
+padding-bottom: 2%;
+}
+
+.tablesStatsJoueurs a{
+text-decoration: none;
+color: black;
+}
+
+/*Page Session Simulation*/
+#btContinuer{
+width: 100px;
+background:#b3f0ff;
+border: 1px solid black;
+padding: 1px; 
+}
+
+/*Page Accueil Simulation*/
+.btImgetape2{
+margin-top: 2%;
+background-color: white;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding-left: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+#lienVersR{
+text-decoration: none;
+color: black;
+text-transform: capitalize;
+border: 1px solid black;
+background-color: #98BDF0;
+padding: 2px;
+margin-left: 20%;}
+
+#lienVersP{
+text-decoration: none;
+color: black;
+text-transform: capitalize;
+border: 1px solid black;
+background-color: #98BDF0;
+padding: 2px;
+margin-left: 15%;
+}
+
+#imgJoueurReel{
+height: 300px; width: 290px;
+display: inline-block;
+margin-left: 9%;
+}
+
+#imgJoueurPerso{
+height: 230px; width: 190px;
+display: inline-block;
+vertical-align: top;
+margin-left: 4%;
+}
+
+/*Page EquipeReelle Simulation*/
+#team1{
+margin-left: 15%;
+width: 400px;
+background-color: #C0A06D;
+display: inline-block;
+height: 150px;
+margin-top: 2%;
+border: 1px solid black;
+}
+
+#team2{
+margin-right: 15%;
+width: 400px;
+background-color: #C0A06D;
+display: inline-block;
+height: 150px;
+float: right;
+margin-top: 2%;
+border: 1px solid black;
+}
+
+.equipe{
+text-align: center;
+}
+
+.champ{
+display: inline-block;
+margin-left: 30px;
+
+}
+
+#equipe1{
+margin-left: 15%;
+margin-top: 1%;
+width: 400px;
+background-color: #1E90FF;
+text-align: center;
+display: inline-block;
+border: 1px solid black;
+
+}
+
+#equipe2{
+margin-right: 15%;
+width: 400px;
+background-color: #1E90FF;
+text-align: center;
+margin-top: 1%;
+display: inline-block;
+float: right;
+border: 1px solid black;
+}
+
+#table1{
+margin-left: 15%;
+width: 380px;
+background-color: #FFFFF0;
+display: inline-block;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+padding: 5px;
+}
+#table1 td, #table2 td, #table1 th, #table2 th 
+{text-align: left;
+padding-left: 50px;}
+
+#table2{
+margin-right: 15%;
+width: 380px;
+background-color: #FFFFF0;
+float: right;
+border-left:1px solid black;
+border-right:1px solid black;
+border-bottom:1px solid black;
+display: inline-block;
+padding: 5px;
+}
+
+.formBTsimuler{
+margin-top: 2%;
+margin-left: 45%;}
+
+#btSimulerMatch{width: 150px;
+background:#63ecaf;
+border: 2px solid black;
+padding: 2px; }
+
+/*Page Championnat Simulation*/
+.cliqteam{
+color: black;
+text-decoration: none;
+display: table-cell;
+
+}
+
+.tableauEquipeChampio{
+margin-top: 2%;
+background-color: white;
+width: 20%;
+margin-left: auto;
+margin-right: auto;
+border: 2px solid black;
+padding-left: 5%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+/*Page Equipe Perso Simulation*/
+.equipe1{ border:1px solid black;
+          text-align: center;
+          display: inline-block;
+          width: 450px;
+          margin-left: 15%;
+          margin-top: 1%;
+          padding: 2px;
+          background-color: #C0A06D;
+          
+         }
+         
+.equipe2{ border:2px solid green;
+          text-align: center;
+          display: inline-block;
+          width: 450px;
+          margin-right: 15%;
+          margin-top: 1%;
+          padding: 2px;
+          float:right;    
+          vertical-align:top   }
+
+
+         
+#btEnvoyerEquipe1{
+width: 150px;
+background:skyblue;
+border: 1px solid black;
+padding: 2px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+display: block;
+}
+
+.bouton
+{
+	margin-top: 2%;
+    color: blue;
+    font-size:18px;
+    cursor:pointer;
+    margin-left: 4px;
+    border:1px solid black;
+    padding: 1px;
+    background: white;
+}
+.bouton:hover
+{
+    text-decoration:underline;
+}
+.texte
+{
+    border:1px solid black;
+    background-color: #C0A06D;
+    padding:2px;
+    display: inline-block;
+    color:#333333;
+    width: 450px;
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+.texte2
+{
+    border:2px solid black;
+    background-color: pink;
+    padding:2px;
+    display: inline-block;
+    color:#333333;
+    width: 450px;
+    margin-top: 1%;
+    margin-right: 15%;
+    float: right;
+}
+
+.equipePerso1affiche{
+margin-top: 1%;
+width: 450px;
+padding: 2px;
+border: 1px solid black;
+background-color: #1E90FF;
+margin-left: 15%;
+}
+
+#btValider{width: 150px;
+background:#63ecaf;
+border: 2px solid black;
+padding: 2px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 2%;
+display: block;
+ }
+
+
+#texte0, #texte1, #texte2, #texte3, #texte4, #texte5, #texte6, #texte7, #texte8, #texte9, #texte10, #texte11, #texte12, #texte13, #texte14, #texte15, #texte16, #texte17{
+        display:none;		
+      }
+
+      
+
+
+/*Page Match Simulation*/
+.equipe1match{
+	width: 380px;
+	display: inline-block;
+	margin-left: 15%;
+	text-align: center;
+	margin-top: 1%;
+	background-color: #63ecaf;
+	padding: 5px;	
+	border: 1px solid black;
+}
+
+.vs{
+	display: inline-block;
+	width: 14%;
+	text-align: center;
+	margin-top: 1%;
+	margin-left: 2%;
+	
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border: 1px solid black;
+}
+.equipe2match{
+	border: 1px solid black;
+	float: right;
+	margin-top: 1%;
+	display: inline-block;
+	width: 380px;
+	margin-right: 15%;
+	text-align: center;	
+	background-color: #63ecaf;
+	padding: 5px;
+}
+
+.btJouer button{
+width: 150px;
+background:#FFFC3C;
+border: 2px solid black;
+padding: 2px; 
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
